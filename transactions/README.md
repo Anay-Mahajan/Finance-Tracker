@@ -50,8 +50,8 @@ A comprehensive Django-based web application to manage and analyze personal fina
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/Anay-Mahajan/FJ-BE-R2Anay-IIITPune.git
-cd FJ-BE-R2Anay-IIITPune
+git clone https://github.com/yourusername/FJ-BE-R2-yourname.git
+cd FJ-BE-R2-yourname
 ```
 
 2. Create virtual environment:
