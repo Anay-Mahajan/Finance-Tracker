@@ -53,8 +53,8 @@ INSTALLED_APPS = [
     
     # Local apps
     'accounts',
-    'transactions',
     'dashboard',
+    'transactions.apps.TransactionsConfig'
 ]
 
 SITE_ID = 1

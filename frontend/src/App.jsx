@@ -4,7 +4,8 @@ import { Chart as ChartJS, ArcElement, CategoryScale, LinearScale, BarElement, T
 import { Pie, Bar } from 'react-chartjs-2';
 ChartJS.register(ArcElement, CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend);
 // API Configuration
-const API_URL = 'https://anay-finance-tracker-backend.duckdns.org/api';
+// const API_URL = 'https://anay-finance-tracker-backend.duckdns.org/api';
+const API_URL = 'http://127.0.0.1:8000/api';
 const api = axios.create({
   baseURL: API_URL,
   headers: { 'Content-Type': 'application/json' },
